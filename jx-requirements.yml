@@ -16,11 +16,12 @@ spec:
     provider: kubernetes
     registry: ghcr.io
   environments:
-  - key: dev
-  - key: staging
-  - key: production
+  - key: alpha
+  - key: beta
+  - key: gamma
+  - key: prod
   ingress:
-    domain: ""
+    domain: drhorton.com
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
